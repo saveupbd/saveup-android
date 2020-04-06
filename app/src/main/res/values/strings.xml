@@ -1,0 +1,385 @@
+<resources>
+    <string name="app_name">SaveUp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="search_text">What are you looking for? </string>
+    <string name="action_settings">Settings</string>
+
+    <!--Login Page-->
+    <string name="login">Login</string>
+    <string name="guest">Use as Guest</string>
+    <string name="username_guest">Guest</string>
+    <string name="sendpassword">Update Password</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_country">Country</string>
+    <string name="hint_city">City</string>
+    <string name="hint_number">Number</string>
+    <string name="forget_password">Forgot Password ?</string>
+    <string name="new_register">New User? Register</string>
+    <string name="update_information">Update Information</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_birthday">Birthday</string>
+    <string name="hint_new_password">New Password</string>
+    <string name="hint_conform_password">Confirm Password</string>
+    <string name="changepassword">Change Password</string>
+    <string name="facebook">Facebook</string>
+    <string name="forgotpassword">Forgot Password</string>
+    <string name="register">Register</string>
+
+    <string name="facebook_app_id" translatable="false">1653710131594960</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1653710131594960</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN" translatable="false">aeb01c8d99d2829826102a3be4410411</string>
+    <string name="permission_sms_rationale" translatable="false">You have to provide SMS permission to read the phone verification code automatically.</string>
+    <string name="ente_you_email">Enter your Email</string>
+    <!-- Home Page -->
+    <string name="dealofday">Deals of the Day</string>
+    <string name="terms_conditions" translatable="false">I agree with the \"Privacy Policy\" and  \"Terms and Conditions\".</string>
+    <string name="search_location">Search your Location</string>
+    <string name="hrs">hrs</string>
+    <string name="min">min</string>
+    <string name="sec">sec</string>
+    <string name="viewall">View All</string>
+    <string name="grapitnow">Grap it Now</string>
+    <string name="topoffers">Top offers</string>
+    <string name="uptooffers">Up to 50% off</string>
+    <string name="mostpopular">Most Popular</string>
+    <string name="registration">Registration</string>
+    <string name="please_enter_username">Please enter name</string>
+    <string name="please_enter_email">Please enter Email</string>
+    <string name="please_enter_password">Please enter password</string>
+    <string name="please_confirm_password">Please confirm password</string>
+    <string name="confirm_password_not_matched">Password does not match</string>
+    <string name="please_enter_birth_date">Please enter birth date</string>
+    <string name="please_enter_phone">Please enter phone number</string>
+    <string name="please_enter_new_password">Please enter new password</string>
+    <string name="please_enter_confirm_password">Please enter confirm password</string>
+    <string name="please_enter_passwordsame">Old Password and New Password are same</string>
+    <string name="please_enter_confirmpasswordsame">New Password and Confirm Password are not same</string>
+    <string name="please_enter_email_invaild">Please enter valid email</string>
+    <string name="please_verify_termscondition">Please verify terms and condition</string>
+    <string name="success">SUCCESS</string>
+    <string name="error">ERROR</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="cancel">Cancel</string>
+    <string name="selectcolor">Select Color</string>
+    <string name="selectsize">Select Size</string>
+    <string name="description">Description</string>
+    <string name="delivaryoption">Delivery Option</string>
+    <string name="addcart">Add Cart</string>
+    <string name="sort">Sort</string>
+    <string name="filter">Filter</string>
+    <string name="buynow">Buy Now</string>
+    <string name="pricingdetails">Pricing Details</string>
+    <string name="relatedtxt">You may also be interested in </string>
+    <string name="internet_connection">Internet Connection Failed</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="please_select_image_from_valid_path">Please select image from valid path(Gallery folder)</string>
+    <string name="choose_an_image">Choose an Image</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="continuetxt">Continue</string>
+    <string name="please_enter_building">Please enter Door No or Builing Name</string>
+    <string name="please_enter_street">Please enter Locality or Street Name</string>
+    <string name="please_enter_state">Please enter City Name</string>
+    <string name="please_enter_pincode">Please enter Postcode</string>
+    <string name="no_items">No of items</string>
+    <string name="shipping_charges">Shipping Charges</string>
+    <string name="tax">Tax</string>
+    <string name="totalamount">Total Amount</string>
+    <string name="show">Show</string>
+    <string name="hide">Hide</string>
+    <string name="stores">Stores</string>
+    <string name="nearme">Near Me</string>
+    <string name="myaccount">My Account</string>
+    <string name="mycart">My Cart</string>
+    <string name="logout">Logout</string>
+    <string name="deals">Deals</string>
+    <string name="ordered_on">Ordered on</string>
+    <string name="items">Items</string>
+    <string name="grandtotal">Grand Total</string>
+    <string name="updates_sent_to">Updates sent to</string>
+    <string name="thankyou">Thank You</string>
+    <string name="deliverytxt">your product will be delivered on 3 days</string>
+    <string name="shippingaddress">Shipping Address</string>
+    <string name="paypal">Paypal</string>
+    <string name="cash_on_delivery">Cash on delivery</string>
+    <string name="price">Price</string>
+    <string name="delivery">Delivery</string>
+    <string name="amount">Amount</string>
+    <string name="choose_profile_shipping_addess">Choose Profile Shipping Addess</string>
+    <string name="yes">yes</string>
+    <string name="no">No</string>
+    <string name="buildingname">Building Name</string>
+    <string name="locality_tx">Locality, Area, Street</string>
+    <string name="state">State</string>
+    <string name="pincode">Pincode</string>
+    <string name="cash_on_delivery_available">Cash on delivery available</string>
+    <string name="exchangepolicy">30 Days Exchange Policy</string>
+    <string name="wishlist_items">Show all wishlist items</string>
+    <string name="myWishlist">My Wishlist</string>
+    <string name="cart_items">Show all cart items</string>
+    <string name="all_orders">Vouchers bought</string>
+    <string name="myorders">My Vouchers</string>
+    <string name="branches">Branches</string>
+    <string name="write_a_review">Write a review</string>
+    <string name="submit">SUBMIT</string>
+    <string name="review_title">Please enter review title</string>
+    <string name="enter_comments">Please enter comments</string>
+    <string name="your_product_review_here">Please write your product review here</string>
+    <string name="your_deals_review_here">Please write your deal review here</string>
+    <string name="your_store_review_here">Please write your store review here</string>
+    <string name="or_connect_with">or connect with</string>
+    <string name="city">City</string>
+    <string name="country">Country</string>
+    <string name="no_city_found">No City Found</string>
+    <string name="profile">Profile</string>
+    <string name="cart">Cart</string>
+    <string name="near_by_stores">Nearby Stores</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="order_details">Order Details</string>
+    <string name="please_select_color">Please select color</string>
+    <string name="please_select_size">Please select size</string>
+    <string name="payment">Payment</string>
+    <string name="select_shipping_address">Please select shipping address type</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="french">French</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="discount">Discount</string>
+    <string name="under">Under</string>
+    <string name="over">Over</string>
+    <string name="product_delivary_details">Product will delivery in</string>
+    <string name="days">days</string>
+    <string name="rate_experience">Rate your experience</string>
+    <string name="review">Review</string>
+    <string name="pay">Pay</string>
+    <string name="get_discount">Get Discount</string>
+    <string name="products">Products</string>
+    <string name="store">Store</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="order_placed">Your Order Placed</string>
+    <string name="orders_available">No Orders Available</string>
+    <string name="cod">COD</string>
+    <string name="single_unit_price">Single unit price</string>
+    <string name="offer">Offer</string>
+    <string name="available_limit">Available Limit exit!!!</string>
+    <string name="payment_status">Payment Status</string>
+    <string name="delivery_status">Delivery Status</string>
+    <string name="country_found">No country found</string>
+    <string name="city_found">No city found</string>
+    <string name="permision_available_camera">SMS permission has been given</string>
+    <string name="permissions_not_granted">Permission is denied</string>
+    <string name="help">Help</string>
+    <string name="how_to">How To Use App</string>
+    <string name="no_internet">No Internet.</string>
+    <string name="postal_code">Postal code</string>
+    <string name="redeem_coupon">Redeem Coupon</string>
+    <string name="merchant">Merchants</string>
+    <string name="hot_deals">Hot Deals</string>
+    <string name="latest_product">Latest Product</string>
+    <string name="gift_product">Gift Product</string>
+    <string name="redemption_instruction">Redemption Instruction</string>
+    <string name="fine_print_conditions">Fine print</string>
+    <string name="what_is_included_in_the_deal">What is included in the deal ?</string>
+    <string name="add_to_wishlist">Add to wishlist</string>
+    <string name="direction_of_the_merchant_location">Direction of the merchant location</string>
+
+    <string name="redeem_offer_from_today_until" translatable="false">Redeem offer from Today until %1$s</string>
+    <string name="store_details">Store details</string>
+    <string name="please_install_map">Please install a maps application</string>
+    <string name="store_location_not_found">Store location not found! Please try again later</string>
+    <string name="are_you_sure_redeem_coupon">Are you sure you want to redeem coupon?</string>
+    <string name="unable_to_reach_server">Sorry unable to reach server!!!</string>
+    <string name="ok">Ok</string>
+    <string name="purchasing_multiple_vouchers">Purchasing multiple vouchers?</string>
+    <string name="multiple_product_alert">Remember, You can only redeem all these vouchers at once.To redeem vouchers separately, simply purchase them in separate transaction.</string>
+    <string name="no_product_available">No deals available</string>
+    <string name="redeemed_at">Redeemed at :</string>
+    <string name="expires_at">Expires at :</string>
+    <string name="no_nearby_store_found">No nearby store found!</string>
+    <string name="wishlisted">Wishlisted</string>
+    <string name="redeem_at">Redeem at</string>
+    <string name="voucher_details">Voucher Details</string>
+    <string name="share_this_deal">Share this deal</string>
+    <string name="no_merchants_available">No merchants available</string>
+    <string name="latest_deals">Latest Deals</string>
+    <string name="gift_deals">Gift Deals</string>
+    <string name="top_picks">Top Picks</string>
+    <string name="merchant_details">Merchant Details</string>
+    <string name="unredeemed">Unredeemed</string>
+    <string name="redeemed">Redeemed</string>
+    <string name="reset">RESET</string>
+    <string name="purchased_on">Purchased on</string>
+    <string name="merchant_name">Merchant name :</string>
+    <string name="make_sure_to_redeem_only_when_you_are_at">Make sure to redeem only when you are at</string>
+    <string name="no_deals_available">No deals available</string>
+    <string name="choose_previous_billing_address">Choose previous billing address</string>
+    <string name="select_billing_address">Select billing address</string>
+    <string name="billing_address">Billing Address</string>
+    <string name="current_billing_address">Current billing address</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="add_promo_code">Add promo code</string>
+    <string name="apply">Apply</string>
+    <string name="applying">Applying</string>
+    <string name="applied">Applied</string>
+    <string name="expired">Expired!</string>
+    <string name="voucher_expired">Sorry, the voucher has expired</string>
+    <string name="add_coupon_code">Add coupon code</string>
+    <string name="added_coupon_code">Coupon code Applied</string>
+    <string name="invalid_coupon_code">Invalid Coupon code</string>
+    <string name="coupon_amount">Promo code amount</string>
+    <string name="myVoucher">My Voucher</string>
+    <string name="rewards">Rewards</string>
+    <string name="redemption">Redeem Points</string>
+    <string name="rewards_total_loyality_point_label">Loyalty Points to Redeem</string>
+    <string name="rewards_total_loyality_point_redeem_label"><u>Redeem My Loyalty Points</u></string>
+    <string name="rewards_total_loyality_point_messgae"><b>Congratulations!</b>  \nYou have received <b>%1$s loyality points</b>. \nYour <b>total loyality point is  %2$s</b>.</string>
+    <string name="rewards_total_savings">You have saved <b>%1$s BDT</b>.</string>
+    <string name="referral_msg">Enjoy BDT 100 off each time a friend makes their first purchase using your code.</string>
+    <string name="referral_code">Referral code is Copied to Clipboard </string>
+
+    <string-array name="sort_lay_id">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="sort_lay">
+        <item>Most Popular</item>
+        <item>Price Low to High</item>
+        <item>Price High to Low</item>
+        <item>Newest</item>
+        <item>Reset</item>
+    </string-array>
+
+    <string-array name="saveup_sort_lay_id">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="saveup_sort_lay">
+        <item>Price Low to High</item>
+        <item>Price High to Low</item>
+        <item>Reset</item>
+    </string-array>
+
+    <string-array name="saveup_marchent_sort_lay_id">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="saveup_marchent_sort_lay">
+        <item>Price Low to High</item>
+        <item>Price High to Low</item>
+        <item>Reset</item>
+    </string-array>
+
+    <string-array name="filter_lay">
+        <item>Discount(0% - 10%)</item>
+        <item>Discount(10% - 20%)</item>
+        <item>Discount(20% - 30%)</item>
+        <item>Discount(30% - 40%)</item>
+        <item>Discount(40% - 50%)</item>
+        <item>Discount(50% - 100%)</item>
+        <item>Including Out of Stock</item>
+        <item>Reset</item>
+    </string-array>
+
+
+    <string-array name="languagelist">
+        <item>English</item>
+        <item>Bangla</item>
+    </string-array>
+
+    <string-array name="languagecode">
+        <item>en</item>
+        <item>bn</item>
+
+    </string-array>
+
+    <string-array name="languagecountrycode">
+        <item>en_GB</item>
+        <item>bn_BD</item>
+
+    </string-array>
+
+
+    <string-array name="filter_lay_id">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>10</item>
+        <item>7</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="invite_friend">Invite Friend</string>
+    <string name="get_100_tk_free">Get 100 tk free</string>
+    <string name="referraltext">Invite and receive BDT 100 OFF !</string>
+    <string name="invitefriendsbyAll">Invite Friends</string>
+    <string name="invite_via_sms">Invite via SMS</string>
+    <string name="invite_via_email">Invite via Email</string>
+    <string name="your_in_offline_mood">Your are in Offline mode</string>
+    <string name="payment_option">Payment Option</string>
+    <string name="full">Full</string>
+    <string name="partial">Partial</string>
+    <string name="full_payment">normal</string>
+    <string name="patial_payment">partial</string>
+    <string name="partner_videos">Partner Videos</string>
+    <string name="remaining_amount">Remaining Amount :</string>
+    <string name="your_invitation_code">Your Invitation Code</string>
+
+    <!--Search Location fragment -->
+    <string name="show_map">show map</string>
+    <string name="hide_map">hide map</string>
+
+    <!--offline payment-->
+    <string name="pay_amount">Pay Amount</string>
+    <string name="pay_amount_error_try_again">Error, Please try again</string>
+    <string name="pay_amount_hint">Enter total amount to get discount</string>
+    <string name="discount_pay_amount_hint">Discounted pay amount</string>
+    <string name="proceed">Proceed</string>
+    <string name="pay_amount_error">Invalid amount</string>
+    <string name="get_discounts">Get Discounts</string>
+
+    <string name="merchant_otp">OTP Code</string>
+    <string name="merchant_otp_hint">Enter otp code here</string>
+    <string name="otp_error">Invalid OTP</string>
+    <string name="payment_error">Invalid OTP</string>
+
+    <!--transactions-->
+    <string name="my_transactions">My Transactions</string>
+    <string name="no_transactions">No Transactions</string>
+    <string name="show_my_transactions">Show All Transactions</string>
+
+    <!--redemption-->
+    <string name="choose_operator">Choose Operator</string>
+    <string name="redeem">Redeem</string>
+    <string name="redeem_by_bkash">Redeem By Bkash</string>
+    <string name="redeem_by_recharge">Redeem By Recharge</string>
+    <string name="number_hint">Enter mobile number</string>
+    <string name="empty_number">Need Mobile Number</string>
+    <string name="empty_amount">Need Redeem Amount</string>
+    <string name="invalid_number">Invalid Number</string>
+    <string-array name="redeem_amounts">
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+    </string-array>
+
+
+    454951891685-350kqn3u0qd2j3uplu931kop0u0b4cci.apps.googleusercontent.com
+
+</resources>

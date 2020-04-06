@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1021147211131",
+    "firebase_url": "https://save-up-ee33e.firebaseio.com",
+    "project_id": "save-up-ee33e",
+    "storage_bucket": "save-up-ee33e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021147211131:android:2dde94362b9386a3",
+        "android_client_info": {
+          "package_name": "com.saveupbd.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021147211131-ilr44u82mf05jvobvk528ucqfe8tumr8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.saveupbd.android",
+            "certificate_hash": "8647b4e654a0af074b62a432479df91d600059d3"
+          }
+        },
+        {
+          "client_id": "1021147211131-1i2k7bhkjgfb0perti8od3oi0b8mqm0s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUYy3JQrP6PNCOsuM4WWgR8vJ095ODPk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021147211131-1i2k7bhkjgfb0perti8od3oi0b8mqm0s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1021147211131-065qt91ch54642s5lhb9qhh0nfqm3akt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.saveup.app",
+                "app_store_id": "1490271018"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

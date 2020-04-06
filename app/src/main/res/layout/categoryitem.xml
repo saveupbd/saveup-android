@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:id="@+id/categoryLay"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="10dp">
+
+
+    <com.saveup.utils.RoundedImageView
+        android:id="@+id/category_image"
+        android:layout_width="60dp"
+        android:scaleType="centerCrop"
+        android:layout_height="60dp" />
+
+    <TextView
+        android:id="@+id/category_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_5"
+        android:textAllCaps="false"
+        android:text="@string/dealofday"
+        android:textColor="#282828"
+        android:textSize="@dimen/sp_12" />
+
+
+</LinearLayout>

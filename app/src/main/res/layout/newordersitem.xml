@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lineview"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/detailLay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="visible"
+                android:paddingTop="@dimen/dp_20">
+
+                <TextView
+                    android:id="@+id/merchantName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Merchant Name"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/OrderDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Order Date"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/sp_12"
+                    android:maxLines="1"
+                    android:gravity="center"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="visible"
+                android:paddingTop="@dimen/dp_5">
+
+                <TextView
+                    android:id="@+id/original_price_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Original Price"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/discounter_price_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Discounted Price"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/saved_price_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Saving"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:gravity="center"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="visible"
+                android:paddingBottom="@dimen/dp_20">
+
+                <TextView
+                    android:id="@+id/original_price"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:textSize="@dimen/sp_12"
+                    android:textColor="@color/dark_red"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/discount_price"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Order Total"
+                    android:textSize="@dimen/sp_12"
+                    android:textColor="@color/green_dark"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/saving"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Order Date"
+                    android:textSize="@dimen/sp_12"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:gravity="center"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

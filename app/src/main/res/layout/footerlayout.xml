@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/footerLay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/menulineview"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/storesTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/store_icon"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/merchant"
+            android:textColor="@color/menu_txt" />
+
+        <TextView
+            android:id="@+id/nearbystore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/nearbyicon"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/nearme"
+            android:textColor="@color/menu_txt"
+            android:visibility="visible" />
+
+
+       <!-- <TextView
+            android:id="@+id/mycartTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/mycart_icon"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/mycart"
+            android:textColor="@color/menu_txt" />-->
+
+        <TextView
+            android:id="@+id/languageTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_language_icon"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/language"
+            android:textColor="@color/menu_txt"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/myVoucher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_monetization_on_black_24dp"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:visibility="visible"
+            android:text="@string/my_transactions"
+            android:textColor="@color/menu_txt" />
+
+        <TextView
+            android:id="@+id/myRewards"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_card_giftcard_black_24dp"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/rewards"
+            android:textColor="@color/menu_txt" />
+
+
+        <TextView
+            android:id="@+id/getFreeVoucher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/gift_icon"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/get_100_tk_free"
+            android:textColor="@color/menu_txt" />
+
+        <TextView
+            android:id="@+id/myaccountTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/account_icon"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/myaccount"
+            android:textColor="@color/menu_txt" />
+
+        <TextView
+            android:id="@+id/howTotxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_info_black_24dp"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/how_to"
+            android:textColor="@color/menu_txt" />
+
+        <TextView
+            android:id="@+id/helptxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_help_black"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/help"
+            android:textColor="@color/menu_txt" />
+
+        <TextView
+            android:id="@+id/logoutTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/logout_icon"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/logout"
+            android:textColor="@color/menu_txt" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#00AAE3</color>
+    <color name="colorPrimaryDark">#117a9e</color>
+    <color name="colorAccent">#00AAE3</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="menu_txt">#282828</color>
+    <color name="lineview">#d0d0d0</color>
+    <color name="app_txt_dark_gray">#555555</color>
+    <color name="app_light_gray">#777777</color>
+    <color name="app_hint_gray">#777777</color>
+    <color name="menulineview">#eaeaea</color>
+    <color name="light_grey">#C6C4C4</color>
+    <color name="yellow">#FFC107</color>
+    <color name="bg_color">#00AAE3</color>
+    <color name="transparent">#0039c8f9</color>
+    <color name="red">#F93939</color>
+    <color name="dark_red">#FF0000</color>
+    <color name="green">#2FFF00</color>
+    <color name="green_dark">#4DC533</color>
+
+</resources>
